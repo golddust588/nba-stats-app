@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div>
+        <div>
+            <header>
+                <div class="logo">
+                    Nba stats
+                </div>
+                <ul class="nav">
+                    <li><a href="./index.html">All players</a></li>
+                    <li><a href="./addplayer.html">Insert player</a></li>
+                </ul>
+            </header>
+        </div>
+
+        <div class="player-form">
+            <input placeholder="Stat name (E.g. 'points')" id="statSection"/>
+            <input placeholder="Player image URL" id="img_url"/>
+            <input placeholder="Player name" id="playerName"/>
+            <input placeholder="Stats (digits and description)" id="stats"/>
+            <button id="submit-button">Add stats</button>
+
+        </div>
+
+        <div class="response-message" id="response-message"></div>
+    </div>
+    <script src="./addplayer.js"></script>
+</body>
+</html>
